@@ -1,0 +1,22 @@
+{
+  "name": "meanauth",
+  "version": "1.0.0",
+  "description": "mean auth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "express": "*",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "*",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.2.1"
+  },
+  "author": "jonathan foster",
+  "license": "ISC"
+}
